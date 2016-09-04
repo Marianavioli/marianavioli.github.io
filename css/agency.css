@@ -811,3 +811,10 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+
+.progress {
+  background: ##e4e6eb;
+  border: 0;
+  height: 14px;
+  box-shadow: none;
+}
