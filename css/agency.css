@@ -824,11 +824,19 @@ body {
 }
 
 .timeline > li .timeline-skill {
-  left: 45%;
+  left: 36.5%;
   padding: 20px 20px 20px 20px;
-  border: 2px solid #fff;
-  border-color:#fff;
   position: absolute;
   background-color: #eee;
   color: #333;
   text-align: center;
+  width: 300px;
+  height: 170px;
+}
+
+
+.timeline2 {
+  text-align: center;
+  padding: 0 20px 0 20px;
+  position: relative;
+}
