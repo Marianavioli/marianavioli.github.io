@@ -822,3 +822,13 @@ body {
 .progress-bar-success{
   background-color: #fec503;
 }
+
+.timeline > li .timeline-skill {
+  left: 45%;
+  padding: 20px 20px 20px 20px;
+  border: 2px solid #fff;
+  border-color:#fff;
+  position: absolute;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
