@@ -836,9 +836,17 @@ body {
 }
 
 .timeline2 {
+  margin-left: 46.6%;
+  margin-top: -3%;
+  width: 80px;
+  height: 80px;
+  color: white;
   text-align: center;
-  padding: 0 20px 0 20px;
-  position: relative;
+  font-size: 50px;
 }
 
+/*  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  color: white;*/
 
