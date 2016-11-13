@@ -57,13 +57,13 @@ gulp.task('minify-js', function() {
 // Copy Bootstrap core files from node_modules to vendor directory
 gulp.task('bootstrap', function() {
     return gulp.src(['node_modules/bootstrap/dist/**/*', '!**/npm.js', '!**/bootstrap-theme.*', '!**/*.map'])
-        .pipe(gulp.dest('vendor/bootstrap'))
+        .pipe(gulp.dest('deps/bootstrap'))
 })
 
 // Copy jQuery core files from node_modules to vendor directory
 gulp.task('jquery', function() {
     return gulp.src(['node_modules/jquery/dist/jquery.js', 'node_modules/jquery/dist/jquery.min.js'])
-        .pipe(gulp.dest('vendor/jquery'))
+        .pipe(gulp.dest('deps/jquery'))
 })
 
 // Copy Font Awesome core files from node_modules to vendor directory
@@ -76,7 +76,7 @@ gulp.task('fontawesome', function() {
             '!node_modules/font-awesome/*.md',
             '!node_modules/font-awesome/*.json'
         ])
-        .pipe(gulp.dest('vendor/font-awesome'))
+        .pipe(gulp.dest('deps/font-awesome'))
 })
 
 // Copy all third party dependencies from node_modules to vendor directory
